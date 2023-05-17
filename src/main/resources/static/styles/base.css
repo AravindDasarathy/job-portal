@@ -1,0 +1,81 @@
+/* 
+    Created on : 16 Apr 2023, 09:30:06
+    Author     : aravind
+*/
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+}
+
+.error {
+    color: red;
+    font-size: 0.8em;
+    margin-top: 0.5em;
+    text-align: center;
+}
+
+.border-bottom {
+  border-bottom: 1px solid rgba(105, 100, 100, 0.575);
+}
+
+.border-top {
+    border-top: 1px solid rgba(105, 100, 100, 0.575);
+}
+
+.new-div {
+    margin-top: 3rem;
+}
+
+.bold-text {
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    text-align: center;
+}
+
+.button {
+    background-color: darkgray;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    padding: 10px 20px;
+}
+
+a {
+    background-color: darkgray;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    display: block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+}
+
+a:hover {
+    color: dimgray;
+    text-decoration: underline;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.top-bar {
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}

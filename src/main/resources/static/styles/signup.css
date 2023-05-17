@@ -1,0 +1,93 @@
+.signup-container {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15%;
+    padding: 0.8em;
+    max-width: 500px;
+    box-shadow: -1px 1px 20px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+
+.signup-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.signup-title {
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    text-align: center;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+    width: 75%;
+}
+
+.form-group label {
+    margin-top: 1rem;
+}
+
+.form-group input,
+.form-group select {
+    width: 100%;
+    height: 2rem;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 0.5rem;
+}
+
+.form-group input[type=submit] {
+    margin-top: 1rem;
+    background-color: darkgray;
+    color: white;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 35%;
+}
+
+.form-group input[type=submit]:hover {
+    background-color: dimgray;
+}
+
+/*.form-group a {*/
+/*    margin-top: 1rem;*/
+/*    text-align: center;*/
+/*    color: darkgray;*/
+/*    text-decoration: none;*/
+/*    width: 35%;*/
+/*}*/
+
+.form-group a:hover {
+    color: dimgray;
+    text-decoration: underline;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+span {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+span input {
+    width: 90%;
+}
+
+h4 {
+    margin-top: 2%;
+}
