@@ -9,6 +9,7 @@ focuses on backend development only.
 * Spring security
 * Spring Validators
 * Annotated controllers
+* JSP and CSS
 
 ## Overview
 This app deals with two roles: job recruiter and job seeker. A job seeker is someone who is
